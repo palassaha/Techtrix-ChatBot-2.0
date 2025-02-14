@@ -95,3 +95,5 @@ if prompt:
 
     st.chat_message('assistant').markdown(response)
     st.session_state.messages.append({'role': 'assistant', 'content': response})
+
+# running : streamlit run app.py
