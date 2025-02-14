@@ -1,0 +1,12 @@
+{
+    "events": [
+        {
+            "event_name": "Coding Competition",
+            "type": "single"
+        },
+        {
+            "event_name": "Hackathon",
+            "type": "team"
+        }
+    ]
+}
