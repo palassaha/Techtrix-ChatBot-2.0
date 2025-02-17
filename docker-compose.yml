@@ -1,12 +1,13 @@
 
-version: '3.8'
+version: "3.8"
 
 services:
-  chabot:
+  chatbot:
     build: .
+    container_name: techfest-chatbot
     ports:
-      -"8000:8000"
+      - "8000:8000"
     env_file:
-      - .venv
+      - .env
     
-    restart: always
+    

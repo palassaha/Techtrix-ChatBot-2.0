@@ -9,7 +9,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain_core.prompts import PromptTemplate
 from langchain_community.chat_message_histories import ChatMessageHistory
-import google as genai
+import google.generativeai as genai
 
 # Load environment variables
 load_dotenv()
@@ -62,7 +62,7 @@ embedding_model = HuggingFaceEmbeddings(
 )
 
 # Correct file path reference
-pdf_path = "data\TechFest2025-EventDetails.pdf"
+pdf_path = "data/TechFest2025-EventDetails.pdf"
 
 # Load PDF and initialize vector store
 docs = process_pdf(pdf_path)
