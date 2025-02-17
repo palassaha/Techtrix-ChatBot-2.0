@@ -62,7 +62,7 @@ embedding_model = HuggingFaceEmbeddings(
 )
 
 # Correct file path reference
-pdf_path = "data\TechFest 2025 - Event Details.pdf"
+pdf_path = "data/TechFest2025-EventDetails.pdf"
 
 # Load PDF and initialize vector store
 docs = process_pdf(pdf_path)
