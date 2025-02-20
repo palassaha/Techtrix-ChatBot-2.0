@@ -61,6 +61,11 @@ Create a `.env` file in the root directory and configure necessary environment v
 uvicorn app.api:app --reload
 ```
 
+### 6️⃣ Use Custom Data
+To use your own event details, replace the existing PDF file under the `data/` folder with your own.
+Update the corresponding file reference in the langchain_utils.py file under the `app\` folder.
+
+
 ---
 Made with ❤️ for Techtrix 2025!
 
